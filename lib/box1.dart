@@ -8,7 +8,6 @@ class Box1 extends StatelessWidget {
     // TODO: implement build
     return Card(
       child: Row(
-        
         children: [
           Column(
             children: <Widget>[

@@ -8,10 +8,11 @@ class TextStyle1 extends StatelessWidget {
     final text = Container(
       child: Text(
         texto,
+        textAlign: TextAlign.right,
         style: TextStyle(
-            color: Colors.black,
-            fontSize: 40,
-            fontWeight: FontWeight.bold),
+          color: Colors.black,
+          fontSize: 40,
+          fontWeight: FontWeight.bold),
       ),
     );
     return text;
